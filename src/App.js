@@ -64,7 +64,7 @@ class App extends Component {
       <div className="container">
         <h1>FirebaseUI-React</h1>
         <h1> with Firebase Authentication</h1>
-        <p>Please sign-in:</p>
+        <p>Please sign-in</p>
         <StyledFirebaseAuth
           uiConfig={this.uiConfig}
           firebaseAuth={firebase.auth()}
